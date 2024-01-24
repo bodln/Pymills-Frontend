@@ -32,7 +32,7 @@
                         :key="diff"
                         @click="handleDifficultyClick('white', diff)"
                     >
-                        {{ diff }}
+                        {{ diff == "easy" ? "Lako" : diff == "medium" ? "Srednje" : "Teško" }}
                     </button>
                 </div>
 
