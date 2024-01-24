@@ -23,8 +23,3 @@ Start the server, but make sure you change API_URL in the config.ts to your back
 ```bash
   npm run dev
 ```
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
