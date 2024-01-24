@@ -92,7 +92,7 @@
                 class="lastEval"
                 v-if="lastEval != null"
             >
-                <p>Last eval:</p>
+                <p>Evaluacija poteza:</p>
                 <p>{{ lastEval }}</p>
             </div>
             <div
@@ -199,9 +199,9 @@
     }
 
     enum EGameType {
-        PlayerVsPlayer = "Player vs Player",
-        PlayerVsComputer = "Player vs Computer",
-        ComputerVsComputer = "Computer vs Computer",
+        PlayerVsPlayer = "Igrač vs Igrač",
+        PlayerVsComputer = "Igrač vs Kompjuter",
+        ComputerVsComputer = "Kompjuter vs Kompjuter",
     }
 
     const gameState = ref<IGameState>({
